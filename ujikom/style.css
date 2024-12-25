@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar {
+    background-color: #0d35a4;
+    overflow: hidden;
+    color: white;
+    padding: 14px 20px;
+}
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.navbar .name {
+    float: left;
+}
+.content {
+    padding: 50px;
+}
+.content h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+.links {
+    margin-top: 20px;
+}
+.links a {
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+}
+.section {
+    padding: 50px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+}
+.section h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.section p {
+    font-size: 18px;
+}
+.section img {
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
